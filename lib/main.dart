@@ -26,6 +26,14 @@ class _MainAppState extends State<MainApp> {
 
   @override
   Widget build(BuildContext context) {
+    var _width = MediaQuery.of(context).size.width;
+    var _height = MediaQuery.of(context).size.height;
+    ScreenUtil.init(
+      context,
+      designSize: Size(414.0, 896.0),
+      allowFontScaling: true,
+    );
+
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
         statusBarColor: Colors.white, statusBarBrightness: Brightness.light));
     return MaterialApp(
