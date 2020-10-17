@@ -14,15 +14,15 @@ class CustomAppBar extends StatelessWidget {
 
     return Container(
       padding: EdgeInsets.symmetric(
-        horizontal: 16.0,
-        vertical: 16.0,
+        horizontal: 16.0.w,
+        vertical: 16.0.h,
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Icon(
             Icons.menu,
-            size: 28.0,
+            size: 28.0.h,
           ),
           Text(
             "Magazine.",
@@ -33,7 +33,7 @@ class CustomAppBar extends StatelessWidget {
           ),
           Icon(
             Icons.search,
-            size: 28.0,
+            size: 28.0.h,
           ),
         ],
       ),
