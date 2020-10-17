@@ -1,8 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CustomAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var _width = MediaQuery.of(context).size.width;
+    var _height = MediaQuery.of(context).size.height;
+    ScreenUtil.init(
+      context,
+      designSize: Size(414.0, 896.0),
+      allowFontScaling: true,
+    );
+
     return Container(
       padding: EdgeInsets.symmetric(
         horizontal: 16.0,

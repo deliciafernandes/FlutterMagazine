@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_magazine/screens/DetailScreen.dart';
 import 'package:flutter_magazine/screens/HomeScreen.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() => runApp(MainApp());
 
