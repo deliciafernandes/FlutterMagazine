@@ -105,3 +105,8 @@ Create Merge Request
 By navigating to Create New Merge request
 ```
 
+Links for dels:
+https://stackoverflow.com/questions/50214338/flutter-error-mediaquery-of-called-with-a-context-that-does-not-contain-a-med
+https://pub.dev/packages/flutter_screenutil
+https://github.com/csi-vitpune/FlutterMagazine/issues/4
+
